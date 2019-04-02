@@ -1,113 +1,113 @@
 {
   "semantics": [
     {
-      "label": "Interactive Video Editor",
+      "label": "Trình chỉnh sửa video tương tác",
       "fields": [
         {
-          "label": "Upload/embed video",
+          "label": "Tải lên / nhúng video",
           "fields": [
             {
-              "label": "Add a video",
-              "description": "Click below to add a video you wish to use in your interactive video. You can add a video link or upload video files. It is possible to add several versions of the video with different qualities. To ensure maximum support in browsers at least add a version in webm and mp4 formats."
+              "label": "Thêm một video",
+              "description": "Nhấp vào bên dưới để thêm video bạn muốn sử dụng trong video tương tác của mình. Bạn có thể thêm một liên kết video hoặc tải lên các tập tin video. Có thể thêm một số phiên bản của video với các chất lượng khác nhau. Để đảm bảo hỗ trợ tối đa trong trình duyệt, ít nhất hãy thêm một phiên bản ở định dạng webm và mp4."
             },
             {
-              "label": "Start screen options (unsupported for YouTube videos)",
+              "label": "Tùy chọn màn hình bắt đầu (không được hỗ trợ cho video YouTube)",
               "fields": [
                 {
-                  "label": "The title of this interactive video",
-                  "default": "Interactive Video",
-                  "description": "Used in summaries, statistics etc."
+                  "label": "Tiêu đề của video tương tác này",
+                  "default": "Video tương tác",
+                  "description": "Được sử dụng trong tóm tắt, thống kê, vv"
                 },
                 {
-                  "label": "Hide title on video start screen"
+                  "label": "Ẩn tiêu đề trên màn hình bắt đầu video"
                 },
                 {
-                  "label": "Short description (Optional)",
+                  "label": "Mô tả ngắn (Tùy chọn)",
                   "description": "Optional. Display a short description text on the video start screen. Does not work for YouTube videos."
                 },
                 {
-                  "label": "Poster image",
-                  "description": "Image displayed before the user launches the video. Does not work for YouTube Videos."
+                  "label": "Ảnh áp phích",
+                  "description": "Hình ảnh hiển thị trước khi người dùng khởi chạy video. Không hoạt động cho Video YouTube."
                 }
               ]
             },
             {
-              "label": "Text tracks (unsupported for YouTube videos)",
+              "label": "Phụ đề (không được hỗ trợ cho video YouTube)",
               "fields": [
                 {
-                  "label": "Available text tracks",
+                  "label": "Phụ đề có sẵn",
                   "entity": "Track",
                   "field": {
-                    "label": "Track",
+                    "label": "Phụ đề",
                     "fields": [
                       {
-                        "label": "Track label",
-                        "description": "Used if you offer multiple tracks and the user has to choose a track. For instance 'Spanish subtitles' could be the label of a Spanish subtitle track.",
-                        "default": "Subtitles"
+                        "label": "Nhãn phụ đề",
+                        "description": "Được sử dụng nếu bạn cung cấp nhiều mục phụ đề và người dùng phải chọn một mục phục đề. Ví dụ: 'phụ đề tiếng Tây Ban Nha' có thể là nhãn của bản phụ đề tiếng Tây Ban Nha.",
+                        "default": "Phụ đề"
                       },
                       {
-                        "label": "Type of text track",
+                        "label": "Loại phụ đề",
                         "options": [
                           {
-                            "label": "Subtitles"
+                            "label": "Phụ đề"
                           },
                           {
-                            "label": "Captions"
+                            "label": "Chú thích"
                           },
                           {
-                            "label": "Descriptions"
+                            "label": "Mô tả"
                           }
                         ]
                       },
                       {
-                        "label": "Source language, must be defined for subtitles",
+                        "label": "Ngôn ngữ nguồn, phải được xác định cho phụ đề",
                         "default": "en",
-                        "description": "Must be a valid BCP 47 language tag. If 'Subtitles' is the type of text track selected, the source language of the track must be defined."
+                        "description": "Phải là thẻ ngôn ngữ BCP 47 hợp lệ. Nếu 'Phụ đề' là mục phụ đề được chọn, ngôn ngữ nguồn của mục phụ đề phải được xác định."
                       },
                       {
-                        "label": "Track source (WebVTT file)"
+                        "label": "Nguồn phụ đề (tệp WebVTT)"
                       }
                     ]
                   }
                 },
                 {
-                  "label": "Default text track",
-                  "description": "If left empty or not matching any of the text tracks the first text track will be used as the default."
+                  "label": "Phụ đề mặc định",
+                  "description": "Nếu để trống hoặc không khớp với bất kỳ đoạn văn bản nào, đoạn văn bản đầu tiên sẽ được sử dụng làm mặc định."
                 }
               ]
             }
           ]
         },
         {
-          "label": "Add interactions",
+          "label": "Thêm tương tác",
           "fields": [
             {
               "field": {
                 "fields": [
                   {
-                    "label": "Display time"
+                    "label": "Hiển thị thời gian"
                   },
                   {
-                    "label": "Pause video"
+                    "label": "Dừng video"
                   },
                   {
-                    "label": "Display as",
-                    "description": "<b>Button</b> is a collapsed interaction the user must press to open. <b>Poster</b> is an expanded interaction displayed directly on top of the video",
+                    "label": "Hiển thị là",
+                    "description": "<b>Nút</b> là một tương tác bị thu gọn lại, người dùng phải nhấn để mở. <b>Áp phích</b> là một tương tác mở rộng được hiển thị trực tiếp trên đầu video",
                     "options": [
                       {
-                        "label": "Button"
+                        "label": "Nút"
                       },
                       {
-                        "label": "Poster"
+                        "label": "Áp phích"
                       }
                     ]
                   },
                   {
-                    "label": "Turn into button on small screens"
+                    "label": "Biến thành nút trên màn hình nhỏ"
                   },
                   {
-                    "label": "Label",
-                    "description": "Label displayed next to interaction icon."
+                    "label": "Nhãn",
+                    "description": "Nhãn hiển thị bên cạnh biểu tượng tương tác."
                   },
                   {},
                   {},
@@ -116,85 +116,85 @@
                   {},
                   {},
                   {
-                    "label": "Adaptivity",
+                    "label": "Thích nghi",
                     "fields": [
                       {
-                        "label": "Action on all correct",
+                        "label": "Hành động khi tất cả đúng",
                         "fields": [
                           {
-                            "label": "Seek to",
-                            "description": "Enter timecode in the format M:SS"
+                            "label": "Tìm kiếm",
+                            "description": "Nhập mã thời gian theo định dạng M:SS"
                           },
                           {
-                            "label": "Allow the user to opt out and continue"
+                            "label": "Cho phép người dùng từ chối và tiếp tục"
                           },
                           {
-                            "label": "Message"
+                            "label": "Thông điệp"
                           },
                           {
-                            "label": "Label for seek button"
+                            "label": "Nhãn cho nút tìm kiếm"
                           }
                         ]
                       },
                       {
-                        "label": "Action on wrong",
+                        "label": "Hành động khi sai",
                         "fields": [
                           {
-                            "label": "Seek to",
-                            "description": "Enter timecode in the format M:SS"
+                            "label": "Tìm kiếm",
+                            "description": "Nhập mã thời gian theo định dạng M:SS"
                           },
                           {
-                            "label": "Allow the user to opt out and continue"
+                            "label": "Cho phép người dùng từ chối và tiếp tục"
                           },
                           {
-                            "label": "Message"
+                            "label": "Thông điệp"
                           },
                           {
-                            "label": "Label for seek button"
+                            "label": "Nhãn cho nút tìm kiếm"
                           }
                         ]
                       },
                       {
-                        "label": "Require full score for task before proceeding",
-                        "description": "For best functionality this option should be used in conjunction with the \"Prevent skipping forward in a video\" option of Interactive Video."
+                        "label": "Yêu cầu điểm cao nhất cho nhiệm vụ trước khi tiếp tục",
+                        "description": "Để hoạt động tốt nhất, tùy chọn này nên được sử dụng cùng với tùy chọn \ "Ngăn chặn chuyển tiếp trong video \" của Video tương tác."
                       }
                     ]
                   },
                   {
-                    "label": "Visuals",
+                    "label": "Hình ảnh",
                     "fields": [
                       {
-                        "label": "Background color"
+                        "label": "Mầu nền"
                       },
                       {
-                        "label": "Box shadow",
-                        "description": "Adds a subtle shadow around the interaction. You might want to disable this for completely transparent interactions"
+                        "label": "Bóng hộp",
+                        "description": "Thêm một bóng mờ xung quanh tương tác. Bạn có thể muốn tắt cái này để tương tác hoàn toàn trong suốt"
                       }
                     ]
                   },
                   {
-                    "label": "Go to on click",
+                    "label": "Đi tới khi bấm",
                     "fields": [
                       {
-                        "label": "Type",
+                        "label": "Loại",
                         "options": [
                           {
-                            "label": "Timecode"
+                            "label": "Mã thời gian"
                           },
                           {
-                            "label": "Another page (URL)"
+                            "label": "Trang khác (URL)"
                           }
                         ]
                       },
                       {
-                        "label": "Go To",
-                        "description": "The target time the user will be taken to upon pressing the hotspot. Enter timecode in the format M:SS."
+                        "label": "Đi đến",
+                        "description": "Thời gian mục tiêu người dùng sẽ được đưa đến khi nhấn điểm nóng. Nhập mã thời gian theo định dạng M:SS."
                       },
                       {
                         "label": "URL",
                         "fields": [
                           {
-                            "label": "Protocol",
+                            "label": "Giao thức",
                             "options": [
                               {
                                 "label": "http://"
@@ -203,10 +203,10 @@
                                 "label": "https://"
                               },
                               {
-                                "label": "(root relative)"
+                                "label": "(gốc tương ứng)"
                               },
                               {
-                                "label": "other"
+                                "label": "khác"
                               }
                             ]
                           },
@@ -216,8 +216,8 @@
                         ]
                       },
                       {
-                        "label": "Visualize",
-                        "description": "Show that interaction can be clicked by adding a border and an icon"
+                        "label": "Trực quan",
+                        "description": "Cho thấy có thể nhấp vào tương tác bằng cách thêm đường viền và biểu tượng"
                       }
                     ]
                   }
@@ -229,46 +229,46 @@
           ]
         },
         {
-          "label": "Summary task",
+          "label": "Nhiệm vụ tóm tắt",
           "fields": [
             {},
             {
-              "label": "Display at",
-              "description": "Number of seconds before the video ends."
+              "label": "Hiển thị tại",
+              "description": "Số giây trước khi video kết thúc."
             }
           ]
         }
       ]
     },
     {
-      "label": "Behavioural settings",
+      "label": "Cài đặt hành vi",
       "fields": [
         {
-          "label": "Start video at",
-          "description": "Enter timecode in the format M:SS"
+          "label": "Bắt đầu video tại",
+          "description": "Nhập mã thời gian theo định dạng M:SS"
         },
         {
-          "label": "Auto-play video",
-          "description": "Start playing the video automatically"
+          "label": "Tự động phát video",
+          "description": "Bắt đầu phát video tự động"
         },
         {
-          "label": "Loop the video",
-          "description": "Check if video should run in a loop"
+          "label": "Lặp lại video",
+          "description": "Kiểm tra xem video có nên chạy trong một vòng lặp không"
         },
         {
-          "label": "Override \"Show Solution\" button",
-          "description": "This option determines if the \"Show Solution\" button will be shown for all questions, disabled for all or configured for each question individually.",
+          "label": "Ghi đè nút \"Hiển thị Lời giải\",
+          "description": "Tùy chọn này xác định nếu nút \"Hiển thị Lời giải\" sẽ được hiển thị cho tất cả các câu hỏi, bị vô hiệu hóa cho tất cả hoặc được định cấu hình cho từng câu hỏi riêng lẻ.",
           "options": [
             {
-              "label": "Enabled"
+              "label": "Bật"
             },
             {
-              "label": "Disabled"
+              "label": "Tắt"
             }
           ]
         },
         {
-          "label": "Override \"Retry\" button",
+          "label": "Ghi đè nút \"Thử lại\"",
           "description": "This option determines if the \"Retry\" button will be shown for all questions, disabled for all or configured for each question individually.",
           "options": [
             {
