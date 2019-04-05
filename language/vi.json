@@ -257,7 +257,7 @@
         },
         {
           "label": "Ghi đè nút \"Hiển thị Lời giải\",
-          "description": "Nút \"Hiển thị lời giải\" sẽ được hiển thị cho tất cả các câu hỏi, bị vô hiệu hóa cho tất cả hoặc được định cấu hình cho từng câu hỏi riêng lẻ.",
+          "description": "\"Hiển thị lời giải\" sẽ được hiển thị cho tất cả các câu hỏi, bị vô hiệu hóa cho tất cả hoặc được định cấu hình cho từng câu hỏi riêng lẻ.",
           "options": [
             {
               "label": "Bật"
