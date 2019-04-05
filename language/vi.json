@@ -23,7 +23,7 @@
                 },
                 {
                   "label": "Mô tả ngắn (Tùy chọn)",
-                  "description": "Optional. Display a short description text on the video start screen. Does not work for YouTube videos."
+                  "description": "Không bắt buộc. Hiển thị một văn bản mô tả ngắn trên màn hình bắt đầu video. Không hoạt động cho video YouTube."
                 },
                 {
                   "label": "Ảnh áp phích",
@@ -269,201 +269,201 @@
         },
         {
           "label": "Ghi đè nút \"Thử lại\"",
-          "description": "This option determines if the \"Retry\" button will be shown for all questions, disabled for all or configured for each question individually.",
+          "description": "Tùy chọn này xác định xem nút \"Thử lại\" sẽ được hiển thị cho tất cả các câu hỏi, bị vô hiệu hóa cho tất cả hoặc được định cấu hình cho từng câu hỏi riêng lẻ.",
           "options": [
             {
-              "label": "Enabled"
+              "label": "Bật"
             },
             {
-              "label": "Disabled"
+              "label": "Tắt"
             }
           ]
         },
         {
-          "label": "Start with bookmarks menu open",
-          "description": "This function is not available on iPad when using YouTube as video source."
+          "label": "Bắt đầu với menu bookmark mở",
+          "description": "Chức năng này không khả dụng trên iPad khi sử dụng YouTube làm nguồn video."
         },
         {
-          "label": "Show button for rewinding 10 seconds"
+          "label": "Nút hiển thị để tua lại 10 giây"
         },
         {
-          "label": "Prevent skipping forward in a video",
-          "description": "Enabling this options will disable user video navigation through default controls."
+          "label": "Ngăn chặn bỏ qua trong một video",
+          "description": "Bật tùy chọn này sẽ vô hiệu hóa điều hướng video của người dùng thông qua các điều khiển mặc định."
         },
         {
-          "label": "Deactivate sound",
-          "description": "Enabling this option will deactivate the video's sound and prevent it from being switched on."
+          "label": "Tắt âm thanh",
+          "description": "Bật tùy chọn này sẽ tắt âm thanh của video và ngăn không cho bật."
         }
       ]
     },
     {
-      "label": "Localize",
+      "label": "Bản địa hóa",
       "fields": [
         {
-          "label": "Interaction title",
-          "default": "Interaction"
+          "label": "Tiêu đề tương tác",
+          "default": "Tương tác"
         },
         {
-          "label": "Play title",
-          "default": "Play"
+          "label": "Tiêu đề phát",
+          "default": "Phát"
         },
         {
-          "label": "Pause title",
-          "default": "Pause"
+          "label": "Tiêu đề dừng",
+          "default": "Dừng"
         },
         {
-          "label": "Mute title",
-          "default": "Mute"
+          "label": "Tiêu đề tắt tiếng",
+          "default": "Tắt tiếng"
         },
         {
-          "label": "Unmute title",
-          "default": "Unmute"
+          "label": "Tiêu đề không tắt tiếng",
+          "default": "Không tắt tiếng"
         },
         {
-          "label": "Video quality title",
-          "default": "Video Quality"
+          "label": "Tiêu đề chất lượng video",
+          "default": "Chất lượng video"
         },
         {
-          "label": "Video captions title",
-          "default": "Captions"
+          "label": "Tiêu đề chú dẫn video",
+          "default": "Chú dẫn"
         },
         {
-          "label": "Close button text",
-          "default": "Close"
+          "label": "Văn bản nút đóng",
+          "default": "Đóng"
         },
         {
-          "label": "Fullscreen title",
-          "default": "Fullscreen"
+          "label": "Tiêu đề toàn màn hình",
+          "default": "Toàn màn hình"
         },
         {
-          "label": "Exit fullscreen title",
-          "default": "Exit Fullscreen"
+          "label": "Tiêu đề thoát toàn màn hình",
+          "default": "Thoát toàn màn hình"
         },
         {
-          "label": "Summary title",
-          "default": "Summary"
+          "label": "Tiêu đề tổng kết",
+          "default": "Tổng kết"
         },
         {
-          "label": "Bookmarks title",
+          "label": "Tiêu đề bookmarks",
           "default": "Bookmarks"
         },
         {
-          "label": "Submit screen title",
-          "default": "Submit screen"
+          "label": "Tiêu đề màn hình nộp",
+          "default": "Màn hình nộp"
         },
         {
-          "label": "Default label for adaptivity seek button",
-          "default": "Continue"
+          "label": "Nhãn mặc định cho nút tìm kiếm thích ứng",
+          "default": "Tiếp tục"
         },
         {
-          "label": "Default label for continue video button",
-          "default": "Continue with video"
+          "label": "Nhãn mặc định cho nút video tiếp tục",
+          "default": "Tiếp tục với video"
         },
         {
-          "label": "Set playback rate",
-          "default": "Playback Rate"
+          "label": "Đặt tốc độ phát lại",
+          "default": "Tốc độ phát lại"
         },
         {
-          "label": "Rewind 10 Seconds",
-          "default": "Rewind 10 Seconds"
+          "label": "Tua lại 10 giây",
+          "default": "Tua lại 10 giây"
         },
         {
-          "label": "Navigation is disabled text",
-          "default": "Navigation is disabled"
+          "label": "Văn bản điều hướng bị tắt",
+          "default": "Điều hướng bị tắt"
         },
         {
-          "label": "Sound is disabled text",
-          "default": "Sound is disabled"
+          "label": "Văn bản âm thanh bị tắt",
+          "default": "Âm thanh bị tắt"
         },
         {
-          "label": "Warning that the user must answer the question correctly before continuing",
-          "default": "You need to answer all the questions correctly before continuing."
+          "label": "Cảnh báo rằng người dùng phải trả lời chính xác câu hỏi trước khi tiếp tục",
+          "default": "Bạn cần trả lời đúng tất cả các câu hỏi trước khi tiếp tục."
         },
         {
-          "label": "Back button",
-          "default": "Back"
+          "label": "Nút quay lại",
+          "default": "Quay lại"
         },
         {
-          "label": "Passed time hours",
-          "default": "Hours"
+          "label": "Số giờ thời gian đã dừng",
+          "default": "Giờ"
         },
         {
-          "label": "Passed time minutes",
-          "default": "Minutes"
+          "label": "Số phút thời gian đã dừng",
+          "default": "Phút"
         },
         {
-          "label": "Passed time seconds",
-          "default": "Seconds"
+          "label": "Số giây thời gian đã dừng",
+          "default": "Giây"
         },
         {
-          "label": "Label for current time",
-          "default": "Current time:"
+          "label": "Nhãn cho thời gian hiện tại",
+          "default": "Thời gian hiện tại:"
         },
         {
-          "label": "Label for total time",
-          "default": "Total time:"
+          "label": "Nhãn cho tổng thời gian",
+          "default": "Tổng thời gian:"
         },
         {
-          "label": "Text for explaining navigation hotkey",
-          "default": "Use key k for starting and stopping video at any time"
+          "label": "Văn bản để giải thích phím nóng điều hướng",
+          "default": "Sử dụng phím k để bắt đầu và dừng video bất cứ lúc nào"
         },
         {
-          "label": "Text explaining that a single interaction with a name has come into view",
-          "default": "Interaction appeared:"
+          "label": "Văn bản giải thích rằng một tương tác duy nhất với một tên đã xuất hiện",
+          "default": "Tương tác xuất hiện:"
         },
         {
-          "label": "Text for explaining that multiple interactions have come into view",
-          "default": "Multiple interactions appeared."
+          "label": "Văn bản để giải thích rằng nhiều tương tác đã xuất hiện",
+          "default": "Nhiều tương tác xuất hiện."
         },
         {
-          "label": "Video is paused announcement",
-          "default": "Video is paused"
+          "label": "Thông báo video bị tạm dừng",
+          "default": "Video bị tạm dừng"
         },
         {
-          "label": "Content label",
-          "default": "Content"
+          "label": "Nhãn nội dung",
+          "default": "Nội dung"
         },
         {
-          "label": "Answered message (@answered will be replaced with the number of answered questions)",
-          "default": "@answered answered"
+          "label": "Tin nhắn đã trả lời (@answered sẽ được thay thế bằng số lượng câu hỏi đã trả lời)",
+          "default": "@answered đã trả lời"
         },
         {
-          "label": "Submit screen title",
-          "default": "@answered Question(s) answered",
-          "description": "@answered will be replaced by the number of answered questions."
+          "label": "Tiêu đề màn hình gửi",
+          "default": "@answered Câu hỏi đã trả lời",
+          "description": "@answered sẽ được thay thế bằng số lượng câu hỏi được trả lời."
         },
         {
-          "label": "Submit screen information",
-          "default": "You have answered @answered questions, click below to submit your answers.",
-          "description": "@answered will be replaced by the number of answered questions."
+          "label": "Thông tin màn hình gửi",
+          "default": "Bạn đã trả lời các câu hỏi @answered, nhấp vào bên dưới để gửi câu trả lời của bạn.",
+          "description": "@answered sẽ được thay thế bằng số câu hỏi đã trả lời."
         },
         {
-          "label": "Submit screen information for missing answers",
+          "label": "Thông tin màn hình gửi cho câu trả lời bị thiếu",
           "default": "You have not answered any questions."
         },
         {
-          "label": "Submit screen information for answer needed",
-          "default": "You have to answer at least one question before you can submit your answers."
+          "label": "Thông tin màn hình gửi cho câu trả lời cần thiết",
+          "default": "Bạn phải trả lời ít nhất một câu hỏi trước khi bạn có thể gửi câu trả lời của mình."
         },
         {
-          "label": "Submit screen submit button",
-          "default": "Submit Answers"
+          "label": "Nút gửi màn hình gửi",
+          "default": "Gửi câu trả lời"
         },
         {
-          "label": "Submit screen submit message",
-          "default": "Your answers have been submitted!"
+          "label": "Thông điệp gửi màn hình gửi",
+          "default": "Câu trả lời của bạn đã được gửi!"
         },
         {
-          "label": "Submit screen table row title: Answered questions",
-          "default": "Answered questions"
+          "label": "Tiêu đề hàng bảng của bảng màn hình gửi: Câu hỏi đã được trả lời",
+          "default": "Câu hỏi đã được trả lời"
         },
         {
-          "label": "Submit screen table row title: Score",
-          "default": "Score"
+          "label": "Tiêu đề hàng bảng màn hình gửi: Điểm",
+          "default": "Điểm"
         },
         {
-          "label": "Submit screen answered score",
-          "default": "answered"
+          "label": "Điểm câu đã trả lời màn hình gửi",
+          "default": "đã trả lời"
         }
       ]
     }
