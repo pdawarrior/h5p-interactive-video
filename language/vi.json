@@ -257,7 +257,7 @@
         },
         {
           "label": "Ghi đè nút \"Hiển thị Lời giải\",
-          "description": "Tùy chọn này xác định liệu nút\"Hiển thị lời giải\" có được hiển thị cho tất cả các câu hỏi, tắt cho tất cả hoặc cấu hình cho mỗi câu hỏi riêng biệt.",
+          "description": "This option determines if the \"Show Solution\" button will be shown for all questions, disabled for all or configured for each question individually.",
           "options": [
             {
               "label": "Bật"
