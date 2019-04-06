@@ -4,7 +4,7 @@
       "label": "Trình chỉnh sửa video tương tác",
       "fields": [
         {
-          "label": "Tải lên / nhúng video",
+          "label": "Tải lên/nhúng video",
           "fields": [
             {
               "label": "Thêm một video",
@@ -256,26 +256,26 @@
           "description": "Kiểm tra xem video có nên chạy trong một vòng lặp không"
         },
         {
-          "label": "Override \"Show Solution\" button",
-          "description": "This option determines if the \"Show Solution\" button will be shown for all questions, disabled for all or configured for each question individually.",
+          "label": "Ghi đè \"Hiển thị lời giải\" nút",
+          "description": "Tùy chọn này xác định liệu nút \"Hiển thị lời giải\" có được hiển thị cho tất cả các câu hỏi, tắt cho tất cả hoặc được cấu hình cho từng câu hỏi riêng lẻ.",
           "options": [
             {
-              "label": "Enabled"
+              "label": "Bật"
             },
             {
-              "label": "Disabled"
+              "label": "Tắt"
             }
           ]
         },
         {
-          "label": "Override \"Retry\" button",
-          "description": "This option determines if the \"Retry\" button will be shown for all questions, disabled for all or configured for each question individually.",
+          "label": "Ghi đè \"Thử lại\" nút",
+          "description": "Tùy chọn này xác định liệu nút \"Thử lại\" có được hiển thị cho tất cả các câu hỏi, tắt cho tất cả hoặc được cấu hình cho từng câu hỏi riêng lẻ.",
           "options": [
             {
-              "label": "Enabled"
+              "label": "Bật"
             },
             {
-              "label": "Disabled"
+              "label": "Tắt"
             }
           ]
         },
