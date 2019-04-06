@@ -16,7 +16,7 @@
                 {
                   "label": "Tiêu đề của video tương tác này",
                   "default": "Video tương tác",
-                  "description": "Được sử dụng trong tóm tắt, thống kê, vv"
+                  "description": "Được sử dụng trong tóm tắt, thống kê, vv."
                 },
                 {
                   "label": "Ẩn tiêu đề trên màn hình bắt đầu video"
@@ -38,10 +38,10 @@
                   "label": "Phụ đề có sẵn",
                   "entity": "Track",
                   "field": {
-                    "label": "Phụ đề",
+                    "label": "Mục phụ đề",
                     "fields": [
                       {
-                        "label": "Nhãn phụ đề",
+                        "label": "Nhãn mục phụ đề",
                         "description": "Được sử dụng nếu bạn cung cấp nhiều mục phụ đề và người dùng phải chọn một mục phục đề. Ví dụ: 'phụ đề tiếng Tây Ban Nha' có thể là nhãn của bản phụ đề tiếng Tây Ban Nha.",
                         "default": "Phụ đề"
                       },
@@ -65,14 +65,10 @@
                         "description": "Phải là thẻ ngôn ngữ BCP 47 hợp lệ. Nếu 'Phụ đề' là mục phụ đề được chọn, ngôn ngữ nguồn của mục phụ đề phải được xác định."
                       },
                       {
-                        "label": "Nguồn phụ đề (tệp WebVTT)"
+                        "label": "Nguồn mục phụ đề (tệp WebVTT)"
                       }
                     ]
                   }
-                },
-                {
-                  "label": "Phụ đề mặc định",
-                  "description": "Nếu để trống hoặc không khớp với bất kỳ đoạn văn bản nào, đoạn văn bản đầu tiên sẽ được sử dụng làm mặc định."
                 }
               ]
             }
@@ -229,7 +225,7 @@
           ]
         },
         {
-          "label": "Nhiệm vụ tóm tắt",
+          "label": "Tóm tắt",
           "fields": [
             {},
             {
@@ -256,7 +252,7 @@
           "description": "Kiểm tra xem video có nên chạy trong một vòng lặp không"
         },
         {
-          "label": "Ghi đè \"Hiển thị lời giải\" nút",
+          "label": "Nút ghi đè \"Hiển thị lời giải\"",
           "description": "Tùy chọn này xác định liệu nút \"Hiển thị lời giải\" có được hiển thị cho tất cả các câu hỏi, tắt cho tất cả hoặc được cấu hình cho từng câu hỏi riêng lẻ.",
           "options": [
             {
@@ -268,7 +264,7 @@
           ]
         },
         {
-          "label": "Ghi đè \"Thử lại\" nút",
+          "label": "Nút ghi đè \"Thử lại\"",
           "description": "Tùy chọn này xác định liệu nút \"Thử lại\" có được hiển thị cho tất cả các câu hỏi, tắt cho tất cả hoặc được cấu hình cho từng câu hỏi riêng lẻ.",
           "options": [
             {
@@ -287,7 +283,7 @@
           "label": "Nút hiển thị để tua lại 10 giây"
         },
         {
-          "label": "Ngăn chặn bỏ qua trong một video",
+          "label": "Ngăn bỏ qua chuyển tới trong một video",
           "description": "Bật tùy chọn này sẽ vô hiệu hóa điều hướng video của người dùng thông qua các điều khiển mặc định."
         },
         {
@@ -340,16 +336,16 @@
           "default": "Thoát toàn màn hình"
         },
         {
-          "label": "Tiêu đề tổng kết",
-          "default": "Tổng kết"
+          "label": "Tiêu đề tóm tắt",
+          "default": "Tóm tắt"
         },
         {
-          "label": "Tiêu đề bookmarks",
+          "label": "Tiêu đề Bookmarks",
           "default": "Bookmarks"
         },
         {
-          "label": "Tiêu đề màn hình nộp",
-          "default": "Màn hình nộp"
+          "label": "Tiêu đề màn hình gửi",
+          "default": "Màn hình gửi"
         },
         {
           "label": "Nhãn mặc định cho nút tìm kiếm thích ứng",
