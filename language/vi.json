@@ -256,26 +256,26 @@
           "description": "Kiểm tra xem video có nên chạy trong một vòng lặp không"
         },
         {
-          "label": "Nút ghi đè \"Hiển thị Lời giải\",
-          "description": 
+          "label": "Override \"Show Solution\" button",
+          "description": "This option determines if the \"Show Solution\" button will be shown for all questions, disabled for all or configured for each question individually.",
           "options": [
             {
-              "label": "Bật"
+              "label": "Enabled"
             },
             {
-              "label": "Tắt"
+              "label": "Disabled"
             }
           ]
         },
         {
-          "label": "Ghi đè nút \"Thử lại\"",
-          "description": "Tùy chọn này xác định xem nút \"Thử lại\" sẽ được hiển thị cho tất cả các câu hỏi, bị vô hiệu hóa cho tất cả hoặc được định cấu hình cho từng câu hỏi riêng lẻ.",
+          "label": "Override \"Retry\" button",
+          "description": "This option determines if the \"Retry\" button will be shown for all questions, disabled for all or configured for each question individually.",
           "options": [
             {
-              "label": "Bật"
+              "label": "Enabled"
             },
             {
-              "label": "Tắt"
+              "label": "Disabled"
             }
           ]
         },
